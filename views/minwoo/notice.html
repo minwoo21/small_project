@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <!--Header-->
+            <div >
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="/main">HOME</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="/natice">Link 1</a>
+                        <a class="nav-item nav-link" href="#">Link 2</a>
+                        <a class="nav-item nav-link" href="#">Link 3</a>
+                        <a class="nav-item nav-link" href="#">Link 4</a>
+                    </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!--body-->
+            <div class="my-2 d-flex justify-content-end">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseExample">
+                            <span class="fas fa-retweet"></span>
+                        </button>
+            </div>
+            
+            
+            <!--table notice-->
+            <div class="collapse show" id="collapseExample">
+                    <table class="table table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th colspan="2">Title</th>
+                                    <th scope="col">date</th>
+                                    <th scope="col">visited</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td colspan="2"><a href="#" class="d-block w-100 text-dark" data-target="#myModal1" data-toggle="modal" >Title 1</a></td>
+                                    <td>19-07-19</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td colspan="2"><a href="#" class="d-block w-100 text-dark" data-target="#myModal2" data-toggle="modal" >Title 2</a></td>
+                                    <td>19-07-19</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td colspan="2"><a href="#" class="d-block w-100 text-dark" data-target="#myModal3" data-toggle="modal" >Title 3</a></td>
+                                    <td>the 19-07-19</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td colspan="2"><a href="#" class="d-block w-100 text-dark" data-target="#myModal4" data-toggle="modal" >Title 4</a></td>
+                                    <td>19-07-19</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td colspan="2"><a href="#" class="d-block w-100 text-dark" data-target="#myModal5" data-toggle="modal" >Title 5</a></td>
+                                    <td>19-07-19</td>
+                                    <td>34</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td colspan="2"><a href="#" class="d-block w-100 text-dark" data-target="#myModal6" data-toggle="modal" >Title 6</a></td>
+                                    <td>19-07-19</td>
+                                    <td>5</td>
+                                </tr>
+                            </tbody>
+                          </table>
+                          
+                          
+
+            </div>
+            <!--image notice-->
+            <div class="collapse" id="collapseExample">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./Hydrangeas.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" data-target="#myModal1" data-toggle="modal" >more...</a>
+                            </div>
+                        </div>
+                    </div>
+                            
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./Hydrangeas.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" data-target="#myModal2" data-toggle="modal" >more...</a>
+                            </div>
+                        </div>
+                    </div>
+                                               
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./Hydrangeas.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" data-target="#myModal3" data-toggle="modal" >more...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./Hydrangeas.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" data-target="#myModal4" data-toggle="modal" >more...</a>
+                            </div>
+                        </div>
+                    </div>
+                            
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./Hydrangeas.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" data-target="#myModal5" data-toggle="modal" >more...</a>
+                            </div>
+                        </div>
+                    </div>
+                                                
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./Hydrangeas.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" data-target="#myModal6" data-toggle="modal" >more...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div> 
+                        <!--button-->
+                        <div class="m-3 d-flex justify-content-between">
+                            <div class="col-3 input-group">
+                                <input type="text" class="form-control">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-outline-secondary"><span class="fas fa-search"></span></button>
+                                </div>
+                            </div>
+                            
+
+                            <button type="button" class="btn btn-outline-secondary">add</button>
+                        </div>
+
+                        <!--paging-->
+                        <div class="d-flex justify-content-center">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+            </div>
+            <!--modal 1-->
+            <div class="modal fade" id="myModal1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Modal 1 Heading</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            Modal 1 body..
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!--modal 2-->
+             <div class="modal fade" id="myModal2">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Modal 2 Heading</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            Modal 2 body..
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--modal 3-->
+            <div class="modal fade" id="myModal3">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Modal 3 Heading</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            Modal  3 body..
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--modal 4-->
+            <div class="modal fade" id="myModal4">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Modal 4 Heading</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                Modal 4 body..
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                 <!--modal 5-->
+                 <div class="modal fade" id="myModal5">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Modal 5 Heading</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                Modal 5 body..
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!--modal 6-->
+                <div class="modal fade" id="myModal6">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Modal 6 Heading</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                Modal 6 body..
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+        </div>
+    </body>
+</html>
