@@ -35,7 +35,7 @@ router.get('/main', function (req, res) {
 //form을 통해 summit한 파라미터를 확인
 router.get('/detail', function (req, res) {
     console.log(req.query);
-        res.send('<h1>Request parmeters</h1>'+'ID : '+ req.query.email +'<br>password : '+ req.query.pwd+'<br>Remrmber : '+ req.query.remrmber);
+        res.send('<h1>Request parmeters</h1>'+'ID : '+ req.query.email +'<br>password : '+ req.query.pwd+'<br>Remember : '+ req.query.remember);
     
 
     //res.send('<h1>Request parmeters</h1>'+'Email : '+ req.query.email +'<br>password : '+ req.query.pwd
