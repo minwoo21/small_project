@@ -8,27 +8,68 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        <div class="container">
-            <!--Header-->
-            <div>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="/main">HOME</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link" href="/notice">natice</a>
-                        <a class="nav-item nav-link" href="/signup">signup</a>
-                        <a class="nav-item nav-link" href="#">Link 3</a>
-                        <a class="nav-item nav-link" href="#">Link 4</a>
+<!--navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="main">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="notice">notice</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link 3</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--dropdown menu for sign in-->
+        <div class="btn-group">
+            <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">
+                    Sign in/Sign up
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+                <form class="px-4 py-3">
+                    <div class="form-group">
+                        <label for="exampleDropdownFormEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
                     </div>
+                    <div class="form-group">
+                        <label for="exampleDropdownFormPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
                     </div>
-                </nav>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                            <label class="form-check-label" for="dropdownCheck">
+                                Remember me
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="signup">New around here? Sign up</a>
+                <a class="dropdown-item" href="#">Forgot password?</a>
             </div>
+        </div>
+            
+    </nav>
+    <!--end navigation-->
+
+        <div class="container">
+
 
             <!--body-->
-            <div class="row justify-content-center mt-5">
+            <div class="row justify-content-center my-5">
                 <div class="col-6 border border-dark rounded p-4">
                     <form>
                         <div class="form-group">
@@ -74,5 +115,11 @@
             </div>
 
         </div>
+
+        <footer class="py-5 bg-dark">
+                <div class="container">
+                    <p class="m-0 text-center text-white">Footer</p>
+                </div>
+            </footer>
     </body>
 </html>
