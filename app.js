@@ -16,7 +16,7 @@ router.get('/', function (req, res) {
 
 //-------------------kimminwoo------------------------------------ 
 router.get('/main', function (req, res) {
-    res.sendFile(path.join(__dirname + '/views/minwoo/index.html'));
+    res.sendFile(path.join(__dirname + '/views/minwoo/main.html'));
     //__dirname : It will resolve to your project folder.
     });
     router.get('/notice', function (req, res) {
@@ -28,6 +28,7 @@ router.get('/main', function (req, res) {
             res.sendFile(path.join(__dirname + '/views/minwoo/signup.html'));
             //__dirname : It will resolve to your project folder.
             });
+
         
 
 
